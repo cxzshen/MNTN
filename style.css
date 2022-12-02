@@ -1,0 +1,178 @@
+.headerBack {
+  background-image: url("./public/background\ \(1\).png");
+  background-size: cover;
+}
+
+header {
+  height: 100vh;
+}
+
+.previewLayer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.flexHeader {
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+.textLogo {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.textContainer {
+  width: 600px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.accountHeader {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  line-height: 21px;
+}
+.lineText {
+  color: #fbd784;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+main {
+  color: white;
+}
+section {
+  color: white;
+  position: relative;
+  height: 300px;
+  padding-left: 229px;
+  padding-right: 200px;
+}
+.sectionCount {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 240px;
+  line-height: 240px;
+  opacity: 0.1;
+}
+body {
+  background-color: #0b1d26;
+}
+.sectionMain {
+  position: relative;
+  top: -24%;
+  left: 16%;
+  color: #fbd784;
+  align-items: center;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.mainWrapper {
+  z-index: 1;
+  top: 35%;
+  left: 25%;
+  max-width: 950px;
+}
+.mainHead {
+  color: #fbd784;
+  align-items: center;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.line {
+  width: 72px;
+  height: 2px;
+  background: #fbd784;
+}
+.mainDesc {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 100px;
+  text-transform: capitalize;
+}
+.sectionFlex {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  z-index: 2;
+}
+.sectionTitle {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+}
+.sectionBack {
+  top: -200%;
+  background-image: url("./public/BG\ Content\ \(1\).png");
+  background-size: cover;
+}
+
+.sectionDesc {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerFlex {
+  font-family: "Roboto", sans-serif;
+  height: 477px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.policity {
+  display: flex;
+  flex-direction: column;
+}
+.policityText {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
